@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #E8E5E0;
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -20,19 +19,26 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #C3E2E5;
     padding: 10px 20px 0px;
 }
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
+
+.header img {
+    max-width: 1033px;
+    object-fit: cover;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #298A91;
     min-height: 150px;
 }
+
