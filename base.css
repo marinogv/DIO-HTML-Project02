@@ -6,6 +6,7 @@ body {
     background-color: #E8E5E0;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
