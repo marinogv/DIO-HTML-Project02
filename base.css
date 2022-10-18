@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    padding: 0;
 }
 body {
     background-color: #E8E5E0;
@@ -20,8 +21,20 @@ body {
 .menu {
     width: 15%;
     background-color: #C3E2E5;
-    padding: 10px 20px 0px;
+    padding: 20px 20px 0px;
 }
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 24px;
+    padding: 0px;
+}
+
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
@@ -40,5 +53,7 @@ body {
 .footer {
     background-color: #298A91;
     min-height: 150px;
+    padding: 32px;
+    color: #FFF;
 }
 
