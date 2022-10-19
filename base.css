@@ -29,6 +29,10 @@ body {
     padding: 0px;
 }
 
+.menu h3 {
+    padding-left: 22px
+}
+
 .menu li {
     list-style-type: none;
     margin: 24px;
@@ -42,7 +46,7 @@ body {
 }
 
 .header img {
-    max-width: 1033px;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -51,10 +55,19 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+label {
+    margin: 12px;
+}
+
 .footer {
     background-color: #298A91;
     min-height: 150px;
     padding: 32px;
     color: #FFF;
 }
+
+table, th, td {
+    border: 1px solid;
+  }
 
